@@ -1,0 +1,22 @@
+﻿@model CRUD_Productos.Models.Producto
+@{
+	ViewData["Title"] = "Nuevo Producto";
+}
+<h2>Registrar Producto</h2>
+
+<form asp-action="Create">
+    <div class="mb-3">
+        <label>Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Precio</label>
+        <input asp-for="Precio" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Stock</label>
+        <input asp-for="Stock" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>
