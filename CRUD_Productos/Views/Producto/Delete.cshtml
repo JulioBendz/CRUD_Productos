@@ -1,0 +1,15 @@
+﻿@model CRUD_Productos.Models.Producto
+@{
+    ViewData["Title"] = "Eliminar Producto";
+}
+<h2>¿Eliminar producto?</h2>
+
+<div class="alert alert-danger">
+    <p>¿Estás seguro de eliminar el producto <b>@Model.Nombre</b>?</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
