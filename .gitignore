@@ -1,0 +1,106 @@
+## Visual Studio ##
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results ##
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+## NuGet Packages ##
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.pdb
+*.cache
+*.PackageReference.props
+*.PackageReference.targets
+packages/
+
+## Visual Studio Code ##
+.vscode/
+
+## Windows ##
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Others ##
+*.log
+*.tmp
+*.bak
+*.dbmdl
+*.jfm
+*.sqlite
+*.sqlite3
+
+# Publish
+publish/
+PublishProfiles/
+
+# Environment and secrets
+.env
+appsettings.Development.json
+
+# Rider / JetBrains IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Test output
+TestResults/
+*.trx
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+coverage*.json
+
+# User secrets / private keys
+secrets.json
+*.pfx
+*.key
+*.pem
+
+# Dotnet local settings / tooling
+.localhistory/
+.vscode/.history
+
+# IDE/tooling extras
+*.sublime-workspace
+*.sublime-project
+
+# Optional: ignore local appsettings variants (activar si no quieres trackear appsettings.json)
+# appsettings.Local.json
+# appsettings.*.local.json
+
+# If you manage client libs with LibMan or npm, do not commit them
+wwwroot/lib/
+
+# Local DB / SQL Server files
+*.mdf
+*.ldf
+
+# NuGet/cache/tooling
+.nuget/
+.nuget/packages/
+
+# Optional: ignore local launch settings (uncomment if desired)
+# Properties/launchSettings.json
+
+# Ignore node_modules if present
+node_modules/
